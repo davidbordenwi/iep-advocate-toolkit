@@ -6,6 +6,14 @@
 
 ---
 
+## See It In Action
+
+![Demo screenshot showing the IEP Advocate Toolkit welcome screen with current status, deadlines, auto-sorted documents, and suggested next steps](assets/demo-screenshot.png)
+
+*The toolkit greets you with your current status, tracks multiple advocacy threads, auto-sorts your documents, and suggests what to do next. No manual file organization required.*
+
+---
+
 ## Table of Contents
 
 - [Who Is This For?](#who-is-this-for)
@@ -94,8 +102,61 @@ When used with Claude Code, you get an AI assistant that can:
 ### What You'll Need
 
 1. **A computer** (Windows, Mac, or Linux)
-2. **Claude Code** - Free AI tool from Anthropic ([Get it here](https://claude.ai/code))
-3. **About 15 minutes** for initial setup
+2. **Claude Code** - AI tool from Anthropic ([Get it here](https://claude.ai/code))
+3. **A Claude Pro subscription** - See cost details below
+4. **About 15 minutes** for initial setup
+
+### Cost
+
+**Claude Code requires a paid subscription to use.**
+
+| Plan | Cost | What You Get |
+|------|------|--------------|
+| **Claude Pro** | $20/month ($17/month if paid annually) | Full access to Claude Code, recommended for most families |
+| **Claude Max** | $100-200/month | Higher usage limits for power users |
+
+**Why it costs money:** Claude Code uses advanced AI that costs Anthropic money to run. The Pro subscription gives you access to powerful features that can save you significant time on advocacy work.
+
+**Is it worth it?** Many parents spend hours drafting letters, organizing documents, and preparing for meetings. If Claude Code saves you even a few hours per month, the subscription pays for itself in time saved - not to mention reduced stress.
+
+**Can I try it first?** The free Claude plan (at [claude.ai](https://claude.ai)) lets you chat with Claude and ask questions, but Claude Code specifically requires Pro. You can start with the free chat to get a feel for how Claude can help before subscribing.
+
+**Budget tight?** You can still use this toolkit manually without Claude Code - it just requires more manual work. The folder structure, templates, and guides all work without AI assistance.
+
+### Protecting Your Child's Data (Important!)
+
+IEP documents contain sensitive information about your child - diagnoses, test scores, medical details. **Before using Claude Code, take these steps to protect your privacy:**
+
+#### Step 1: Opt Out of AI Training
+
+By default, Anthropic may use your conversations to improve Claude. **You should opt out:**
+
+1. Open Claude (web or app)
+2. Go to **Settings**
+3. Click **Privacy** → **Privacy Settings**
+4. Turn **OFF** "Help improve Claude" (or similar wording)
+
+This ensures your child's IEP information isn't used to train AI models.
+
+#### Step 2: Best Practices for Sensitive Data
+
+| Do This | Avoid This |
+|---------|------------|
+| Opt out of training before your first session | Sharing data with training enabled |
+| Delete conversations when you're done with a topic | Leaving sensitive conversations indefinitely |
+| Use general descriptions when possible | Including unnecessary personal details |
+| Keep original documents on your computer only | Uploading documents you don't need to discuss |
+
+#### What Anthropic Says
+
+- Conversations from opted-out users are retained for only **30 days** (vs. 5 years for opted-in users)
+- Deleted conversations are **never** used for training
+- Data is de-linked from your identity before any use
+- HIPAA-compliant options exist for healthcare organizations (via Enterprise plans)
+
+**Bottom line:** Opt out of training, be thoughtful about what you share, and delete conversations when done. Your child's privacy matters.
+
+For more details, see [Anthropic's Privacy Center](https://privacy.claude.com).
 
 ### Step 1: Download the Toolkit
 
@@ -117,7 +178,7 @@ git clone https://github.com/[username]/iep-advocate-template.git
 
 1. Go to [claude.ai/code](https://claude.ai/code)
 2. Follow the installation instructions for your computer
-3. It's free to install and use
+3. Sign in with your Claude Pro account (or sign up for Pro)
 
 ### Step 3: Open the Toolkit in Claude Code
 
@@ -291,7 +352,7 @@ Then you can use this toolkit. The AI (Claude) does the hard work.
 
 ### "Is my information private?"
 
-Your files stay on your computer. When you use Claude, your conversations are processed by Anthropic (Claude's creator) according to their privacy policy. No information is shared with schools or anyone else.
+Your files stay on your computer. When you use Claude, your conversations are processed by Anthropic (Claude's creator). **Important:** By default, Claude Pro/Max conversations may be used to improve AI models. We strongly recommend opting out - see [Protecting Your Child's Data](#protecting-your-childs-data-important) for instructions. No information is shared with schools or anyone else.
 
 ### "What if I don't have Claude Code?"
 
@@ -468,9 +529,12 @@ When using Claude Code with this toolkit:
 ### Privacy Considerations
 
 - **Your files stay on your computer** - The toolkit itself doesn't share your data
+- **Opt out of AI training** - See [Protecting Your Child's Data](#protecting-your-childs-data-important) above
+- **By default, Claude Pro/Max data may be used for training** - You must actively opt out in Settings → Privacy
 - **When using Claude** - Your conversations are processed by Anthropic per their [privacy policy](https://www.anthropic.com/privacy)
 - **Don't share sensitive information unnecessarily** - Use discretion with personal details
-- **Protect your documents** - IEP documents contain sensitive information about your child
+- **Protect your documents** - IEP documents contain HIPAA-protected health information about your child
+- **Delete conversations** - When done with a sensitive topic, delete the conversation to minimize data retention
 
 ### Information Accuracy
 
