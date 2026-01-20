@@ -434,6 +434,7 @@ This toolkit is free to use, modify, and share (MIT License). See [LICENSE](LICE
 - Parent Training and Information Centers across the country
 - Every parent who shared what they learned so others wouldn't struggle alone
 - The special education community
+- [Fanconi Anemia Research Fund](https://fanconi.org) - A life-saving resource for families affected by Fanconi Anemia
 
 ---
 
