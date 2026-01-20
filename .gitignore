@@ -1,0 +1,81 @@
+# ===========================================
+# IEP Advocate Toolkit - Privacy Protection
+# ===========================================
+# This .gitignore protects personal and sensitive
+# information from being accidentally committed.
+
+# Personal documents - NEVER commit these
+original-documents/**/*.pdf
+original-documents/**/*.doc
+original-documents/**/*.docx
+original-documents/**/*.jpg
+original-documents/**/*.jpeg
+original-documents/**/*.png
+inbox/*
+!inbox/README.md
+
+# Personalized files (template versions are tracked)
+# After running /setup, these become personal
+# Uncomment the lines below after personalization:
+# DASHBOARD.md
+# CURRENT-STATUS.md
+# MEMORY.md
+
+# Session data (contains personal notes)
+sessions/*.md
+!sessions/README.md
+!sessions/session-template.md
+
+# Generated reports
+reports/generated/*
+!reports/generated/README.md
+
+# Correspondence (may contain personal info)
+correspondence/*.md
+!correspondence/README.md
+!correspondence/templates/
+
+# Progress tracking (personal data)
+progress/*.md
+!progress/README.md
+
+# Calendar (personal deadlines)
+calendar/*.md
+!calendar/README.md
+
+# Contacts (personal information)
+contacts/*.md
+!contacts/README.md
+
+# Plans (personal strategy)
+plans/active/*.md
+!plans/active/README.md
+plans/archive/*.md
+!plans/archive/README.md
+
+# Timeline (personal history)
+timeline/*.md
+!timeline/README.md
+
+# ===========================================
+# OS and Editor files
+# ===========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+*.bak
+*.tmp
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===========================================
+# Backup files
+# ===========================================
+*.backup
+*.old
