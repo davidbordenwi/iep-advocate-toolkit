@@ -65,7 +65,6 @@ This will show your available backups and let you restore to a previous version.
 - `timeline/` - Your advocacy history
 - `progress/` - Your tracking data
 - `plans/` - Your advocacy plans
-- `sessions/` - Your session notes
 - `reports/` - Your generated reports
 - `evaluations/` - Your evaluation summaries
 - `iep-documents/` - Your IEP documents

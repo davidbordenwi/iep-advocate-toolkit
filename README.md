@@ -1,6 +1,6 @@
 # IEP Advocate Toolkit
 
-**A free, organized system to help parents advocate for their child's special education rights.**
+**An AI-powered advocacy toolkit that helps parents strategize approaches, navigate difficult situations, and create professional documentation—interactively.**
 
 *Built by parents, for parents. Because you shouldn't have to figure this out alone.*
 
@@ -53,7 +53,7 @@ Advocating for a child with special needs is exhausting. Parents often:
 - Spend hours trying to find that one document they need
 - Feel alone and overwhelmed
 
-**This toolkit gives you one organized place for everything**, plus an AI assistant (Claude) that knows special education law and can help you prepare, draft letters, and stay on track.
+**This toolkit gives you one organized place for everything**, plus an agentic AI assistant that works with you interactively—consulting on strategy, helping you navigate difficult situations, and creating all the documentation you need.
 
 ---
 
@@ -85,15 +85,16 @@ Advocating for a child with special needs is exhausting. Parents often:
 | **Legal References** | Key laws and your rights explained simply | Know what schools must do |
 | **Support Organizations** | National resources and advocacy groups | You're not alone |
 
-### AI-Powered Assistance
+### Interactive AI Consultation
 
-When used with Claude Code, you get an AI assistant that can:
+This is an **agentic AI toolkit**—Claude doesn't just answer questions, it works alongside you as a knowledgeable advocacy partner:
 
-- **Summarize evaluations** - Turn 20-page reports into key points
-- **Draft letters** - Professional correspondence in minutes
-- **Prepare for meetings** - Custom talking points based on your situation
-- **Answer questions** - "What does this IEP term mean?" or "What are my rights here?"
-- **Track progress** - Remember where you left off and what's next
+- **Strategic consultation** - Talk through difficult situations and get advice on how to approach the school
+- **Real-time strategizing** - Work through scenarios, anticipate school responses, and plan your next moves
+- **Document creation** - Generate professional letters, meeting notes, requests, and follow-ups based on your conversation
+- **Evaluation analysis** - Turn 20-page reports into actionable key points
+- **Meeting preparation** - Custom talking points and anticipated questions for your specific situation
+- **Continuous memory** - Remembers your history, key players, past wins, and what's worked before
 
 ---
 
@@ -568,7 +569,7 @@ This toolkit does not provide medical, psychological, or educational recommendat
 - Consult qualified professionals for medical and educational decisions
 - This toolkit helps you organize and advocate, not diagnose or prescribe
 
-### AI Limitations
+### Agentic AI Limitations
 
 When using Claude Code with this toolkit:
 

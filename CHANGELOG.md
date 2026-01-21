@@ -34,6 +34,13 @@ Based on IEP Advocate Toolkit v2.1.0
 
 ## Template Release History
 
+### [Unreleased]
+
+#### Removed
+- Session logging feature (incomplete - `sessions/`, `/session-summary`)
+- `lessons-learned.md` (redundant with MEMORY.md's lessons section)
+- `demo-example/` folder (dev-only, not user-facing)
+
 ### [2.1.0] - January 2026
 
 #### Added

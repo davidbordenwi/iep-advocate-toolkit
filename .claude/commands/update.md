@@ -125,7 +125,6 @@ These files/folders are user data and must NEVER be modified:
 - `timeline/`
 - `progress/`
 - `plans/`
-- `sessions/`
 - `reports/`
 - `evaluations/`
 - `iep-documents/`
@@ -133,7 +132,6 @@ These files/folders are user data and must NEVER be modified:
 - `correspondence/` (except templates subfolder)
 - `inbox/`
 - `backups/`
-- `lessons-learned.md`
 
 ## Implementation Notes
 

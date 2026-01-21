@@ -45,7 +45,6 @@
 - `progress/` - Goals tracking, services log, observations
 - `advice/` - What-if scenarios and how-to guides
 - `contacts/` - School, IEP team, medical, and support contacts
-- `sessions/` - Session logs and notes
 - `plans/` - Active and archived advocacy plans
 - `reports/` - Generated reports and templates
 
@@ -81,7 +80,7 @@
 Update the relevant files:
 - Contacts go in `contacts/`
 - Deadlines go in `calendar/deadlines.md`
-- Meeting outcomes go in timeline and session notes
+- Meeting outcomes go in timeline
 - Evaluation data goes in `evaluations/`
 
 ---
@@ -102,7 +101,6 @@ Update the relevant files:
 | `/what-if` | Get advice for specific situations |
 | `/report` | Generate progress reports |
 | `/intake` | Process documents in inbox |
-| `/session-summary` | Log session and capture learnings |
 
 ### Toolkit Management
 | Command | Purpose |
@@ -134,9 +132,4 @@ Update the relevant files:
 - Track tasks with TodoWrite tool
 - Update relevant files as information is gathered
 - Log important decisions and outcomes
-- Note anything that should go in MEMORY.md or lessons-learned.md
-
-### At Session End
-- Offer to run `/session-summary`
-- Ask if anything should be added to lessons learned
-- Remind about any pending action items
+- Note anything that should go in MEMORY.md

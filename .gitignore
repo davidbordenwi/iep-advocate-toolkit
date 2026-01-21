@@ -21,11 +21,6 @@ inbox/*
 # CURRENT-STATUS.md
 # MEMORY.md
 
-# Session data (contains personal notes)
-sessions/*.md
-!sessions/README.md
-!sessions/session-template.md
-
 # Generated reports
 reports/generated/*
 !reports/generated/README.md
