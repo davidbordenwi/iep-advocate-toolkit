@@ -28,11 +28,17 @@ All notable changes to your advocacy toolkit are documented here.
 
 ## Template Version
 
-Based on IEP Advocate Toolkit v2.0.0
+Based on IEP Advocate Toolkit v2.0.1
 
 ---
 
 ## Template Release History
+
+### [2.0.1] - January 2026
+
+#### Fixed
+- `/intake` command now removes processed documents from inbox after filing
+- Previously, documents were copied but originals remained in inbox
 
 ### [2.0.0] - January 2026
 
