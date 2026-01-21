@@ -28,11 +28,28 @@ All notable changes to your advocacy toolkit are documented here.
 
 ## Template Version
 
-Based on IEP Advocate Toolkit v2.1.1
+Based on IEP Advocate Toolkit v2.2.0
 
 ---
 
 ## Template Release History
+
+### [2.2.0] - January 2026
+
+#### Added
+- **Launcher scripts:** `start-advocacy.bat` (Windows) and `start-advocacy.command` (Mac) for easy startup
+- **New screenshots:** Launcher, setup wizard, advice, and drafting examples in `assets/`
+- **Quick Start section:** Daily use instructions in README.md
+- **Troubleshooting section:** Common issues and fixes in README.md
+
+#### Changed
+- **welcome.md:** Improved output formatting with visual section dividers and ALL CAPS headers
+- **CLAUDE.md:** Detailed automatic welcome flow with 7-step process
+- **README.md:** Updated Step 3 to recommend launcher, simplified "What You'll Need"
+- **CONTRIBUTING.md:** Added pre-commit checklist (revert user data files rule)
+
+#### Fixed
+- Windows launcher uses `claude.cmd` to avoid conflict with Claude desktop app
 
 ### [2.1.1] - January 2026
 
