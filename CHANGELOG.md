@@ -28,11 +28,31 @@ All notable changes to your advocacy toolkit are documented here.
 
 ## Template Version
 
-Based on IEP Advocate Toolkit v2.0.1
+Based on IEP Advocate Toolkit v2.1.0
 
 ---
 
 ## Template Release History
+
+### [2.1.0] - January 2026
+
+#### Added
+- **Update System:** `/check-updates`, `/update`, and `/restore` commands
+- **STUDENT.md:** Dedicated file for student information (never overwritten)
+- **UPDATE.md:** Manual update instructions
+- **Backup System:** Automatic backups before updates with restore capability
+- All Claude commands now included in template (was missing several)
+
+#### Changed
+- **CLAUDE.md:** Now references STUDENT.md for student info
+- **EMERGENCY.md:** Added /restore reference for toolkit issues
+- **README.md:** Added update system documentation
+- **welcome.md:** Now checks for updates silently at session start
+
+#### Technical
+- Commands use merge strategy (preserves custom commands)
+- Template folders use replace strategy
+- Keeps last 5 backups automatically
 
 ### [2.0.1] - January 2026
 
