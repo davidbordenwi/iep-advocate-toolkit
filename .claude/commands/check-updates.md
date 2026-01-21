@@ -6,7 +6,8 @@ Check if a newer version of the IEP Advocate Toolkit is available.
 
 1. **Read the local VERSION file** to get the current version
 2. **Fetch the remote VERSION file** from GitHub using WebFetch:
-   - URL: `https://raw.githubusercontent.com/davidbordenwi/iep-advocate-toolkit/main/VERSION`
+   - URL: `https://raw.githubusercontent.com/davidbordenwi/iep-advocate-toolkit/main/VERSION?t=[current_timestamp]`
+   - Add a timestamp query parameter (e.g., `?t=1737423600`) to bypass caching
    - Prompt: "Return the exact version number from this file, nothing else"
 3. **Compare versions** using semantic versioning (e.g., 2.1.0 > 2.0.9)
 4. **If update available**, fetch and display the CHANGELOG:
