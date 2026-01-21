@@ -28,11 +28,17 @@ All notable changes to your advocacy toolkit are documented here.
 
 ## Template Version
 
-Based on IEP Advocate Toolkit v2.2.1
+Based on IEP Advocate Toolkit v2.2.2
 
 ---
 
 ## Template Release History
+
+### [2.2.2] - January 2026
+
+#### Fixed
+- **update.md:** Added missing files to update command (launchers, README, assets, etc.)
+- Existing users now receive all new root-level files when running /update
 
 ### [2.2.1] - January 2026
 
