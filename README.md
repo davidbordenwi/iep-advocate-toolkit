@@ -100,6 +100,14 @@ This is an **agentic AI toolkit**—Claude doesn't just answer questions, it wor
 - **Meeting preparation** - Custom talking points and anticipated questions for your specific situation
 - **Continuous memory** - Remembers your history, key players, past wins, and what's worked before
 
+![Claude providing strategic advice for an IEP situation](assets/advice-screenshot.png)
+
+*Ask questions and get strategic advice tailored to your specific situation.*
+
+![Claude drafting a professional letter](assets/drafting-screenshot.png)
+
+*Generate professional letters and documents based on your conversation.*
+
 ---
 
 ## Getting Started (Step-by-Step)
@@ -203,6 +211,10 @@ git clone https://github.com/[username]/iep-advocate-template.git
    - Personalize all the templates with your information
    - Research your state's free parent support resources
    - Set up your dashboard
+
+![Setup wizard guiding you through initial configuration](assets/setup-wizard-screenshot.png)
+
+*The setup wizard asks a few questions to personalize your toolkit.*
 
 **That's it! You're ready to go.**
 
