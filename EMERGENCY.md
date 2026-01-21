@@ -105,4 +105,10 @@ If something just happened:
 
 ---
 
+## Toolkit Issues?
+
+If something broke after an update, run `/restore` to go back to a previous version.
+
+---
+
 **Important:** This is general information, not legal advice. For your specific situation, contact your state's Parent Training and Information Center (PTI) or a special education attorney.

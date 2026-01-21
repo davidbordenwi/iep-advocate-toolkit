@@ -79,3 +79,14 @@ Desktop.ini
 # ===========================================
 *.backup
 *.old
+backups/*
+!backups/.gitkeep
+
+# ===========================================
+# Development files (local only, never pushed)
+# ===========================================
+# PHI/PII patterns for development scanning
+.phi-patterns
+
+# Development workflow commands
+.claude/commands/dev-*.md

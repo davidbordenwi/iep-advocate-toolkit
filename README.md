@@ -339,6 +339,57 @@ These are real organizations with real people who help parents every day. **Most
 
 ---
 
+## Keeping Your Toolkit Updated
+
+The IEP Advocate Toolkit is regularly improved with new features, better templates, and updated legal information. Your personal data is always preserved during updates.
+
+### Checking for Updates
+
+The toolkit will notify you when updates are available. To manually check:
+
+```
+/check-updates
+```
+
+This shows what's new and whether you should update.
+
+### Installing Updates
+
+To download and apply updates:
+
+```
+/update
+```
+
+This will:
+1. Create a backup of your current files
+2. Download the latest improvements
+3. Apply them while preserving all your data
+
+### If Something Goes Wrong
+
+If an update causes problems:
+
+```
+/restore
+```
+
+This lets you return to a previous version from your backups.
+
+### What Gets Updated vs. Protected
+
+| Updated (improvements) | Protected (your data) |
+|------------------------|------------------------|
+| Claude commands | STUDENT.md |
+| Advice guides | DASHBOARD.md |
+| Legal resources | All your documents |
+| Letter templates | Contacts, timeline, calendar |
+| Meeting templates | Correspondence, evaluations |
+
+Your personal information is **never** modified by updates.
+
+---
+
 ## Common Questions
 
 ### "I'm not tech-savvy. Can I really use this?"

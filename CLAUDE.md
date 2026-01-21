@@ -1,21 +1,6 @@
-# IEP Advocate Toolkit - {{STUDENT_NAME}}
+# IEP Advocate Toolkit
 
-## Quick Context
-| | |
-|---|---|
-| **Student** | {{STUDENT_NAME}} |
-| **DOB** | {{DOB}} |
-| **Grade** | {{GRADE}} |
-| **District** | {{DISTRICT}} |
-| **Eligibility** | {{ELIGIBILITY}} |
-
-## Diagnoses
-- {{DIAGNOSIS_1}}
-- {{DIAGNOSIS_2}}
-- [Add more as needed]
-
-## Key Data Points
-[Add key evaluation scores and data after your first evaluation]
+**Student information:** See `STUDENT.md` for student profile, diagnoses, and key data points.
 
 ---
 
@@ -23,8 +8,8 @@
 
 **IMPORTANT:** At the start of each session:
 
-1. **Read first:** DASHBOARD.md and MEMORY.md (if it exists)
-2. **Greet warmly:** "Hi {{PARENT_GREETING}}! I'm here to help advocate for {{STUDENT_FIRST_NAME}} today."
+1. **Read first:** DASHBOARD.md, STUDENT.md, and MEMORY.md (if they exist)
+2. **Greet warmly:** Use the parent names and student name from STUDENT.md
 3. **Show current status:** Brief summary of where things stand
 4. **Identify next action:** What needs to happen next
 5. **Check for gaps:** Ask about 1-2 critical missing items if any
@@ -103,6 +88,7 @@ Update the relevant files:
 
 ## Claude Commands Available
 
+### Advocacy Commands
 | Command | Purpose |
 |---------|---------|
 | `/welcome` | Warm greeting with current status |
@@ -117,6 +103,13 @@ Update the relevant files:
 | `/report` | Generate progress reports |
 | `/intake` | Process documents in inbox |
 | `/session-summary` | Log session and capture learnings |
+
+### Toolkit Management
+| Command | Purpose |
+|---------|---------|
+| `/check-updates` | Check for available toolkit updates |
+| `/update` | Download and apply updates (creates backup) |
+| `/restore` | Restore from a previous backup |
 
 ---
 
