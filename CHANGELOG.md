@@ -28,13 +28,17 @@ All notable changes to your advocacy toolkit are documented here.
 
 ## Template Version
 
-Based on IEP Advocate Toolkit v2.1.0
+Based on IEP Advocate Toolkit v2.1.1
 
 ---
 
 ## Template Release History
 
-### [Unreleased]
+### [2.1.1] - January 2026
+
+#### Changed
+- **README.md:** Clarified this is an agentic AI toolkit with interactive consultation
+- **README.md:** Added emphasis on strategic consultation, real-time strategizing, and document creation
 
 #### Removed
 - Session logging feature (incomplete - `sessions/`, `/session-summary`)
