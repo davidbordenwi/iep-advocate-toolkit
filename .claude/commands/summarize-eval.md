@@ -53,6 +53,15 @@ Summarize an evaluation document and extract key findings.
 
 6. **Update STUDENT.md** Key Data Points section if this evaluation provides new baseline data
 
+7. **Update MEMORY.md if:**
+   - Key data points revealed: Add scores to "Key Data Points" section
+   - Evaluation context needed: Add to "Session Notes → Clarifications"
+   - **Update MEMORY.md Session Notes if:**
+     - New form/document status learned
+     - Process clarification discovered
+     - Correction to existing information
+     - Important context for future sessions
+
 ## Tips
 
 - Focus on scores below 25th percentile (potential service triggers)

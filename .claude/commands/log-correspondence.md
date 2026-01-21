@@ -35,6 +35,11 @@ Quick-add sent or received communications to the log.
    - Add to timeline if significant event
    - Update deadlines if response needed
    - Update CURRENT-STATUS.md if status changed
+   - **Update MEMORY.md Session Notes if:**
+     - New form/document status learned
+     - Process clarification discovered
+     - Correction to existing information
+     - Important context for future sessions
 
 ## Quick Log Format
 

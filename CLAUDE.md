@@ -82,6 +82,7 @@ Update the relevant files:
 - Deadlines go in `calendar/deadlines.md`
 - Meeting outcomes go in timeline
 - Evaluation data goes in `evaluations/`
+- Process details and clarifications go in `MEMORY.md` → Session Notes
 
 ---
 
@@ -158,6 +159,95 @@ Update the relevant files:
 
 ### During Session
 - Track tasks with TodoWrite tool
-- Update relevant files as information is gathered
-- Log important decisions and outcomes
-- Note anything that should go in MEMORY.md
+- **See "Proactive Context Saving" section below for when and how to update files**
+- Proactively save form statuses, clarifications, and corrections
+
+### Proactive Context Saving
+
+**CRITICAL:** You MUST immediately update context files when users share relevant information. Do not wait for session end.
+
+#### Source of Truth
+- **MEMORY.md Session Notes** = authoritative for process details, form statuses, clarifications
+- **CURRENT-STATUS.md** = derived from Session Notes, reflects current situation
+- When in doubt, Session Notes wins
+
+#### Update Flow
+1. Detect trigger in user message
+2. Update relevant files FIRST (silently, don't announce every update)
+3. THEN respond to user's immediate question/request
+4. If multiple triggers in one message, handle ALL of them
+
+#### Entry Format Guidelines
+- Keep entries **concise** (one line per item when possible)
+- **Date format:** Always use `YYYY-MM-DD` (e.g., 2026-01-20)
+- For forms: `[Form name] ([Type]) - [Status] - [Key detail]`
+- Don't duplicate info already in timeline - Session Notes is for clarifications and statuses
+
+#### Error Handling
+- If file update fails (permissions, file locked, etc.): Tell user "I wasn't able to save that to memory - you may want to note it manually"
+- If MEMORY.md is missing entirely: Create minimal version with Session Notes section
+- If MEMORY.md exists but is empty or nearly empty: Add standard structure including Session Notes
+- If section header is malformed: Look for partial match, or create new section
+
+#### Same-Session Corrections
+- If user says "Actually..." or corrects earlier info: **Update** the existing entry, don't add duplicate
+- Example: User said "RE-2 arrived" then later "Wait, that was RE-1, not RE-2"
+  - Find the incorrect entry and fix it
+  - Add note: `(corrected from RE-2)`
+
+#### Handling Vague References
+- If form name is unclear (e.g., "got the consent form"): Log with best guess and context
+  - Example: `- 2026-01-20: Consent form (type unclear) - Received, may be RE-2 for OT evaluation`
+- If deadline is incomplete (e.g., "by the 15th"): Ask for clarification before adding to calendar
+- If unsure whether something is a trigger: Err on the side of saving it
+
+#### Mandatory Save Triggers
+
+| When User Says/Shares | Action | File to Update |
+|-----------------------|--------|----------------|
+| Form name + status (e.g., "RE-1 arrived") | Add/update form entry | MEMORY.md → Session Notes |
+| Correction to existing info | Update the incorrect entry | MEMORY.md or CURRENT-STATUS.md |
+| "That's not right" / "Actually..." | Update the corrected detail | Relevant file |
+| Person's name + role | Check if in contacts, add if not | contacts/ |
+| Deadline or date | Add to calendar | calendar/deadlines.md |
+| Process clarification | Add to session notes | MEMORY.md → Session Notes |
+| "We're waiting for..." / "Next step is..." | Update status | CURRENT-STATUS.md |
+| Decision or outcome | Log event | timeline/advocacy-log.md |
+
+#### How to Update MEMORY.md
+
+1. **Find the "Session Notes" section** by searching for exact header: `## Session Notes`
+   - If not found, create it before the `*Last Updated:` line
+   - If MEMORY.md doesn't exist, create it with minimal template + Session Notes section
+2. **Add entry with date prefix:** `- [YYYY-MM-DD]: [Detail]`
+3. **For form statuses, use this format:**
+   ```
+   - [YYYY-MM-DD]: RE-1 (OT Reevaluation) - Received, notice only, no signature needed
+   - [YYYY-MM-DD]: RE-2 (OT Consent) - Pending, expected by [date]
+   ```
+4. **Update "Last Updated" timestamp** at bottom of file
+
+#### How to Update CURRENT-STATUS.md
+
+1. **Update "Current Situation" section** with latest status
+2. **Update "Immediate Next Actions"** if next steps change
+3. **Add to "Notes" section** for important context
+
+#### Example: RE-1/RE-2 Scenario
+
+User says: "The RE-1 arrived but it's just a notice. We don't need to sign it. We're waiting for the RE-2 consent form."
+
+**Immediately update MEMORY.md Session Notes:**
+```markdown
+## Session Notes
+- 2026-01-20: RE-1 (OT Reevaluation Notice) - Received 2026-01-12, notice only, NO signature required
+- 2026-01-20: RE-2 (OT Consent Form) - Pending, this is what we're waiting for to sign
+```
+
+**Immediately update CURRENT-STATUS.md:**
+```markdown
+## Current Situation
+**What's happening now:** Waiting for RE-2 consent form for OT reevaluation. RE-1 notice was received Jan 12 (informational only, no action needed).
+```
+
+**Next session /welcome output will correctly say:** "Waiting for RE-2 consent form" instead of implying RE-1 needs action.

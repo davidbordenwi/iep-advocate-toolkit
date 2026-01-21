@@ -37,6 +37,27 @@ Ask for the following information:
 1. "Briefly, what's the current status of your IEP advocacy?"
 2. "What's your most pressing concern or goal right now?"
 
+### Step 2.5: Save System Configuration
+
+1. **Get OS from environment** (Claude knows this from system prompt "Platform: [os]")
+2. **Create `.claude/config.md`:**
+
+```markdown
+# System Configuration
+
+- **Operating System:** [Windows/macOS/Linux]
+- **Setup Date:** [Date]
+
+## Command Notes
+- Windows: Use PowerShell syntax, backslash paths
+- macOS/Linux: Use bash syntax, forward slash paths
+```
+
+3. **Add to CLAUDE.md Important Notes section:**
+```markdown
+- **System:** [OS] - use appropriate command syntax
+```
+
 ### Step 3: Update Files
 
 Replace placeholders in these files:

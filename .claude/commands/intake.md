@@ -51,6 +51,21 @@ Add entries to relevant logs:
 - `calendar/deadlines.md` - If deadlines are mentioned
 - `calendar/reminders.md` - For follow-up items
 
+### Step 5.5: Update Memory with Form Details
+
+After identifying document type:
+
+1. **Open MEMORY.md** and find (or create) "Session Notes" section
+2. **Add form entry:**
+   ```
+   - YYYY-MM-DD: [Form name] ([Evaluation type]) - [Status] - [Key notes]
+   ```
+3. **Examples:**
+   - PWN received: `- 2026-01-20: PWN (OT Services Decision) - Received, review for response deadline`
+   - Consent form: `- 2026-01-20: RE-2 (OT Consent) - Received, needs signature`
+   - Notice only: `- 2026-01-20: RE-1 (OT Notice) - Received, informational only, no action`
+4. **Update MEMORY.md timestamp**
+
 ### Step 6: Recommend Actions
 
 Based on document type, suggest next steps:

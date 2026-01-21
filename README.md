@@ -99,6 +99,7 @@ This is an **agentic AI toolkit**—Claude doesn't just answer questions, it wor
 - **Evaluation analysis** - Turn 20-page reports into actionable key points
 - **Meeting preparation** - Custom talking points and anticipated questions for your specific situation
 - **Continuous memory** - Remembers your history, key players, past wins, and what's worked before
+- **Proactive context saving** - When you mention form statuses, corrections, or clarifications, Claude saves them immediately so nothing gets lost between sessions
 
 ![Claude providing strategic advice for an IEP situation](assets/advice-screenshot.png)
 
@@ -670,6 +671,6 @@ When using Claude Code with this toolkit:
 
 ---
 
-*Last updated: January 2026*
+*Last updated: January 2026 (v2.3.0)*
 
 **Questions? Feedback? Ideas?** [Open an issue](../../issues) - we'd love to hear from you!

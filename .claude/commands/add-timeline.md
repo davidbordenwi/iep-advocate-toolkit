@@ -32,6 +32,13 @@ Add an event to the advocacy timeline log.
    - Update CURRENT-STATUS.md if status changed
    - Update calendar/deadlines.md if new deadlines
    - Log correspondence if communication involved
+   - **Update MEMORY.md Session Notes if:**
+     - New form/document status learned
+     - Process clarification discovered
+     - Correction to existing information
+     - Important context for future sessions
+   - If event is a significant milestone (win, decision, major change):
+     - Consider adding to MEMORY.md "Key Wins" or "Lessons Learned" if applicable
 
 ## Tips
 

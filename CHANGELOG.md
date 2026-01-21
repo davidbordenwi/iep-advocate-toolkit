@@ -28,11 +28,30 @@ All notable changes to your advocacy toolkit are documented here.
 
 ## Template Version
 
-Based on IEP Advocate Toolkit v2.2.2
+Based on IEP Advocate Toolkit v2.3.0
 
 ---
 
 ## Template Release History
+
+### [2.3.0] - January 2026
+
+#### Added
+- **Session Notes:** New persistent memory section in MEMORY.md for form statuses, process clarifications, and important context
+- **Proactive Context Saving:** Claude now automatically saves important details when users mention forms, deadlines, corrections, or process clarifications
+- **Source of Truth:** Defined hierarchy - Session Notes is authoritative for process details, CURRENT-STATUS.md derives from it
+- **Migration Support:** Existing installations automatically get Session Notes section when first update is triggered
+- **OS Configuration:** Setup now detects and saves operating system for cross-platform command compatibility
+
+#### Changed
+- **welcome.md:** Now reads Session Notes and cross-references for accuracy - won't contradict saved clarifications
+- **intake.md:** Automatically logs form statuses to MEMORY.md Session Notes
+- **document-call.md, log-correspondence.md, summarize-eval.md, add-timeline.md:** All now have memory update triggers
+- **CLAUDE.md:** Expanded "During Session" with comprehensive "Proactive Context Saving" section including mandatory triggers, update flow, error handling, same-session corrections, and example scenarios
+
+#### Fixed
+- **Context persistence:** Important details shared during conversations (like "RE-1 is just a notice, waiting for RE-2") now persist across sessions
+- **Welcome accuracy:** `/welcome` output now correctly reflects saved form statuses and clarifications
 
 ### [2.2.2] - January 2026
 

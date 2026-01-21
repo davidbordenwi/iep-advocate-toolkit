@@ -16,8 +16,14 @@ Greet the user warmly and show the current advocacy status.
 
 1. Read `DASHBOARD.md` first
 2. Read `MEMORY.md` if it exists
+   - **Pay special attention to "Session Notes" section**
+   - Use form statuses when describing current situation
+   - Reference clarifications - don't contradict them
 3. Read `STUDENT.md` if it exists (for student name and parent greeting)
 4. Read `CURRENT-STATUS.md` for latest situation
+   - Cross-reference with MEMORY.md Session Notes for accuracy
+
+**CRITICAL:** If Session Notes says "RE-1 is notice only, waiting for RE-2", do NOT say "waiting for consent form to sign RE-1" or similar.
 
 ### Step 3: Greet Warmly
 

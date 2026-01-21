@@ -50,6 +50,11 @@ Document a phone conversation for the record.
    - Add to timeline if significant
    - Update deadlines if commitments made
    - Update contacts if new person
+   - **Update MEMORY.md Session Notes if:**
+     - New form/document status learned
+     - Process clarification discovered
+     - Correction to existing information
+     - Important context for future sessions
 
 ## Important Reminders
 

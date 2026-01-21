@@ -104,4 +104,19 @@
 
 ---
 
+## Session Notes
+
+**Purpose:** Important details shared during conversations that should persist.
+
+### Form and Document Status
+- YYYY-MM-DD: [Form name] ([Purpose]) - [Status: Received/Pending/Signed/Not needed] - [Notes]
+
+### Clarifications
+- YYYY-MM-DD: [What was clarified]
+
+### Other Important Context
+- YYYY-MM-DD: [Detail]
+
+---
+
 *Last Updated: [Date]*
