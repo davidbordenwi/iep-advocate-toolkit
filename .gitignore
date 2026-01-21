@@ -90,3 +90,6 @@ backups/*
 
 # Development workflow commands
 .claude/commands/dev-*.md
+
+# Development plans and feature documentation
+dev-plans/
