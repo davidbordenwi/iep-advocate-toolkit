@@ -24,7 +24,11 @@
 - [Common Questions](#common-questions)
 - [Getting Help](#getting-help)
 - [We Want Your Feedback!](#we-want-your-feedback)
+- [Troubleshooting](#troubleshooting)
 - [Important Disclaimers](#important-disclaimers)
+
+> **Free help is available!** Every state has a Parent Training and Information Center (PTI)
+> that provides free support to families. Find yours at [parentcenterhub.org](https://www.parentcenterhub.org/find-your-center/)
 
 ---
 
@@ -102,10 +106,9 @@ This is an **agentic AI toolkit**—Claude doesn't just answer questions, it wor
 
 ### What You'll Need
 
-1. **A computer** (Windows, Mac, or Linux)
+1. **A computer** (Windows or Mac)
 2. **Claude Code** - AI tool from Anthropic ([Get it here](https://claude.ai/code))
 3. **A Claude Pro subscription** - See cost details below
-4. **About 15 minutes** for initial setup
 
 ### Cost
 
@@ -181,11 +184,15 @@ git clone https://github.com/[username]/iep-advocate-template.git
 2. Follow the installation instructions for your computer
 3. Sign in with your Claude Pro account (or sign up for Pro)
 
-### Step 3: Open the Toolkit in Claude Code
+### Step 3: Open the Toolkit
 
-1. Open Claude Code
-2. Open the folder you downloaded (File > Open Folder)
-3. You should see all the toolkit files in the sidebar
+**Easiest way:** Double-click `start-advocacy.bat` (Windows) or `start-advocacy.command` (Mac)
+
+![Launcher showing warm welcome message and instructions](assets/launcher-screenshot.png)
+
+*The launcher greets you warmly and guides you through getting started.*
+
+**Alternative:** Open Claude Code manually, then File > Open Folder and select the toolkit folder.
 
 ### Step 4: Run the Setup Wizard
 
@@ -198,6 +205,17 @@ git clone https://github.com/[username]/iep-advocate-template.git
    - Set up your dashboard
 
 **That's it! You're ready to go.**
+
+### Quick Start (Daily Use)
+
+After initial setup is complete, starting your advocacy session is easy:
+
+**Windows:** Double-click `start-advocacy.bat`
+
+**Mac:** Double-click `start-advocacy.command`
+*(First time: see [Troubleshooting](#troubleshooting) if you get "Permission denied" or security warnings)*
+
+That's it! Say "hi" and Claude will greet you with your current status and next steps.
 
 ### Step 5: Add Your Existing Documents (Optional)
 
@@ -437,6 +455,31 @@ Most IEP issues can be resolved without a lawyer by:
 4. Using mediation if needed
 
 This toolkit helps with all of those. If you do need legal help, your state's Protection & Advocacy organization may provide free assistance.
+
+---
+
+## Troubleshooting
+
+### "Claude Code is not installed"
+
+- Visit [claude.ai/code](https://claude.ai/code) to install
+- After installing, close and reopen the launcher
+
+### Mac: "Cannot be opened because it is from an unidentified developer"
+
+- Right-click the file and choose "Open"
+- Click "Open" in the dialog that appears
+- You only need to do this once
+
+### Mac: "Permission denied" when running start-advocacy.command
+
+1. Open the Terminal app (search for "Terminal" in Spotlight)
+2. Type: `cd ` (with a space after it)
+3. Drag your toolkit folder into the Terminal window
+4. Press Enter
+5. Type: `chmod +x start-advocacy.command`
+6. Press Enter
+7. Now double-click start-advocacy.command again
 
 ---
 

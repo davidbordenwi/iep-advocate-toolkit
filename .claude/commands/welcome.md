@@ -61,22 +61,57 @@ Offer 3-4 quick options based on current status, such as:
 - Acknowledge the hard work they're doing
 - Be helpful without being overwhelming
 
+## Output Formatting
+
+Use clear visual structure to make the welcome easy to scan:
+
+- Use `===` dividers (full line) for the greeting box at top
+- Use `---` dividers between content sections
+- ALL CAPS headers for section titles (CURRENT STATUS, URGENT NEXT STEPS, etc.)
+- Section order: greeting → status → deadlines → help options
+- Numbered bullets for active issues
+- Table format only for deadlines (most scannable use)
+- Celebrate recent wins when applicable
+
 ## Example Output
 
 ```
-Hi [Parent names]! I'm here to help advocate for [Student] today.
+================================================================
 
-💡 Update available: v2.1.0 (you have v2.0.1). Run /check-updates for details.
+  Hi [Parent names]! I'm here to help advocate for [Student] today.
 
-**Current Status:** [Brief summary of where things stand]
+================================================================
 
-**Next Step:** [Most immediate action needed]
+CURRENT STATUS
+--------------
+Phase: [Active Advocacy / Setup / etc.]
 
-How can I help you today? I can:
-- Help you prepare for [upcoming event]
-- Draft a follow-up email about [recent topic]
-- Review the current advocacy strategy
-- Answer any questions about the process
+You have [N] active issues:
+  1. [Issue] - [Brief status]
+  2. [Issue] - [Brief status]
+
+Recent Win: [Celebration of recent progress]
+
+----------------------------------------------------------------
+
+URGENT NEXT STEPS
+-----------------
+| Deadline | What                      | Priority    |
+|----------|---------------------------|-------------|
+| [Date]   | [Action item]             | [Status]    |
+
+[If update available:]
+Update available: v[new] (you have v[current]). Run /check-updates for details.
+
+----------------------------------------------------------------
+
+HOW CAN I HELP TODAY?
+---------------------
+Based on where things stand, I can:
+  - [Contextual option 1]
+  - [Contextual option 2]
+  - [Contextual option 3]
+  - Something else - just ask!
 
 What would be most helpful right now?
 ```

@@ -116,6 +116,28 @@ Thank you for your interest in improving this toolkit! Your contributions help f
 
 ---
 
+## Development Guidelines
+
+### Pre-Commit Checklist
+
+Before committing changes, ensure:
+
+1. **PHI/PII scan completed** - No real student data in any files
+2. **User data files have placeholders** - These files must NOT contain demo/test data:
+   - `STUDENT.md` - must have `{{PLACEHOLDER}}` values
+   - `DASHBOARD.md` - must have `{{PLACEHOLDER}}` values
+   - `CURRENT-STATUS.md` - must have `[placeholder]` values
+   - `MEMORY.md` - must have `{{PLACEHOLDER}}` values
+
+   If you used demo data for testing, revert before commit:
+   ```bash
+   git restore STUDENT.md DASHBOARD.md CURRENT-STATUS.md MEMORY.md
+   ```
+
+3. **Screenshots use demo data** - Any screenshots should show sample data, never real student information
+
+---
+
 ## Questions?
 
 - Open an issue for project-related questions

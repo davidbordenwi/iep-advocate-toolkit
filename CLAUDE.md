@@ -122,11 +122,39 @@ Update the relevant files:
 
 ## Session Behavior
 
-### At Session Start
-1. Read DASHBOARD.md, MEMORY.md, CURRENT-STATUS.md
-2. Greet warmly with current status
-3. Identify any information gaps
-4. Offer help with relevant options
+### At Session Start (AUTOMATIC)
+
+**On ANY first message from the user**, automatically execute the warm welcome flow:
+
+1. **Read context files** (silently):
+   - DASHBOARD.md, STUDENT.md, MEMORY.md, CURRENT-STATUS.md
+
+2. **Check for updates** (silently):
+   - Compare local VERSION to remote
+   - Note if update available (show later)
+
+3. **Greet warmly** (with visual formatting):
+   - Use `===` section dividers for visual structure
+   - "Hi [Parent names]! I'm here to help advocate for [Student] today."
+   - If STUDENT.md has placeholders, use "Welcome! I'm here to help with your advocacy."
+
+4. **Show current status** (CURRENT STATUS section):
+   - Current phase of advocacy
+   - List active issues as numbered bullets
+   - Celebrate recent wins
+
+5. **Show urgent next steps** (URGENT NEXT STEPS section):
+   - Table format for deadlines
+   - Only show items needing attention
+
+6. **Show update notification** (if available):
+   - "Update available: v[new] (you have v[current]). Run /check-updates for details."
+
+7. **Offer help** (HOW CAN I HELP TODAY? section):
+   - 3-4 contextual options based on current status
+   - "What would be most helpful right now?"
+
+**Then** respond to whatever the user actually said (if they asked a question, answer it after the welcome).
 
 ### During Session
 - Track tasks with TodoWrite tool
