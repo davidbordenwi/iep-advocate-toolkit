@@ -38,11 +38,19 @@ Wait for user confirmation before proceeding.
    - `legal-resources/`
    - `correspondence/templates/`
    - `meetings/templates/`
+   - `assets/`
    - `CLAUDE.md`
    - `EMERGENCY.md`
    - `CHANGELOG.md`
    - `VERSION`
    - `UPDATE.md`
+   - `README.md`
+   - `QUICK-START.md`
+   - `SETUP-WIZARD.md`
+   - `LICENSE`
+   - `CONTRIBUTING.md`
+   - `start-advocacy.bat` (if exists)
+   - `start-advocacy.command` (if exists)
 3. **Verify backup was created** - If backup fails, abort update
 4. Show: `✅ Backup saved: backups/[folder-name]/`
 
@@ -64,6 +72,7 @@ Wait for user confirmation before proceeding.
 - `legal-resources/` - Delete old, copy new
 - `correspondence/templates/` - Delete old, copy new
 - `meetings/templates/` - Delete old, copy new
+- `assets/` - Delete old, copy new (screenshots for README)
 
 #### COPY (individual files):
 - `CLAUDE.md`
@@ -71,6 +80,13 @@ Wait for user confirmation before proceeding.
 - `CHANGELOG.md`
 - `VERSION`
 - `UPDATE.md`
+- `README.md`
+- `QUICK-START.md`
+- `SETUP-WIZARD.md`
+- `LICENSE`
+- `CONTRIBUTING.md`
+- `start-advocacy.bat`
+- `start-advocacy.command`
 
 Show progress for each:
 ```
@@ -80,10 +96,13 @@ Applying changes...
 ✅ legal-resources/ updated
 ✅ correspondence/templates/ updated
 ✅ meetings/templates/ updated
+✅ assets/ updated
 ✅ CLAUDE.md updated
 ✅ EMERGENCY.md updated
 ✅ CHANGELOG.md updated
 ✅ VERSION updated to [new version]
+✅ README.md updated
+✅ Launcher scripts updated
 ```
 
 ### Step 6: Cleanup
